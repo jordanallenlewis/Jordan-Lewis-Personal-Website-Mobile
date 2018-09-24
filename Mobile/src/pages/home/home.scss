@@ -16,9 +16,9 @@ page-home {
   p.b
   {
     padding-top:50px;
-    width:100%;
+    // width:100%;
     margin: auto;
-    text-indent:40px
+
   }
   
   
@@ -34,7 +34,7 @@ page-home {
     cursive; font-size: 70px; 
     font-weight: normal; 
     line-height: 100px; 
-    margin: 0 0 50px; 
+    // margin: 0 0 50px; 
     text-align: center; 
     text-shadow: 1px 1px 2px #08293100; 
     
@@ -104,23 +104,22 @@ page-home {
   }
   
   .resume_button {
+    text-align: center;
     color: #fff !important;
     text-transform: uppercase;
     background: #82b7df;
-    padding: 20px;
+    padding-top: 7px;
+    // padding-left: 5px;
     border-radius: 5px;
     display: inline-block;
     border: none;
+    width: 200px;
+    height:30px;
+    font-size: 10pt;
+    text-decoration: none;
   }
   
-  .resume_button:hover {
-    background: #5dbd7d;
-    letter-spacing: 1px;
-    -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-    -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
-    box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
-    transition: all 0.4s ease 0s;
-  }
+  
   
   .asulogo {
     display: block;

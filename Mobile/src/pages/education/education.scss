@@ -8,7 +8,7 @@ h2 {
     font-size: 50px; 
     font-weight: normal; 
     line-height: 100px; 
-    margin: 0 0 50px; 
+    // margin: 0 0 0px; 
     text-align: center; 
     text-shadow: 1px 1px 2px #08293100; 
     
@@ -19,7 +19,7 @@ ul.b {
     list-style-type: square;
     // margin: auto;
     // width: 100%;
-    padding: 10px;
+    // padding: 10px;
     
     
 }
@@ -35,7 +35,7 @@ li.b {
 }
 
 li.c {
-    padding-bottom: 10px;
+    // padding-bottom: 10px;
     list-style: none;
 }
 li.d {
@@ -53,8 +53,4 @@ li.e {
 }
 .alignright {
 	float: right;
-}
-.fade2
-{
-  
 }
